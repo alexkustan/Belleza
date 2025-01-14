@@ -12,6 +12,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        karlaMedium: ["var(--font-karlaMedium)"],
+        karlaRegular: ["var(--font-karlaRegular)"],
+        playfairRegular: ["var(--font-playfairRegular)"],
+      },
     },
   },
   plugins: [],

@@ -3,19 +3,167 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #e6e6e6;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .bg-secondary {
+    background-color: #990f39;
+  }
+  .bg-accent {
+    color: #000000;
+  }
+
+  /* Title Large */
+  .title-large {
+    font-family: "PlayfairRegular", serif;
+    line-height: 100%;
+  }
+  @media (min-width: 1024px) {
+    .title-large {
+      font-size: 128px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .title-large {
+      font-size: 96px;
+    }
+  }
+  @media (max-width: 767px) {
+    .title-large {
+      font-size: 80px;
+    }
+  }
+
+  /* Title Medium */
+  .title-medium {
+    font-family: "PlayfairRegular", serif;
+    line-height: 100%;
+  }
+  @media (min-width: 1024px) {
+    .title-medium {
+      font-size: 96px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .title-medium {
+      font-size: 64px;
+    }
+  }
+  @media (max-width: 767px) {
+    .title-medium {
+      font-size: 48px;
+    }
+  }
+
+  /* Title Small */
+  .title-small {
+    font-family: "PlayfairRegular", serif;
+    line-height: 100%;
+  }
+  @media (min-width: 1024px) {
+    .title-small {
+      font-size: 64px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .title-small {
+      font-size: 48px;
+    }
+  }
+  @media (max-width: 767px) {
+    .title-small {
+      font-size: 40px;
+    }
+  }
+
+  /* Label Large */
+  .label-large {
+    font-family: "PlayfairRegular", serif;
+    line-height: auto;
+  }
+  @media (min-width: 1024px) {
+    .label-large {
+      font-size: 48px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .label-large {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 767px) {
+    .label-large {
+      font-size: 32px;
+    }
+  }
+
+  /* Label Small */
+  .label-small {
+    font-family: "PlayfairRegular", serif;
+    line-height: auto;
+  }
+  @media (min-width: 1024px) {
+    .label-small {
+      font-size: 24px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .label-small {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 767px) {
+    .label-small {
+      font-size: 16px;
+    }
+  }
+
+  /* Body Medium Regular */
+  .body-medium-regular {
+    font-family: "KarlaRegular", sans-serif;
+    line-height: auto;
+  }
+  @media (min-width: 1024px) {
+    .body-medium-regular {
+      font-size: 24px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .body-medium-regular {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 767px) {
+    .body-medium-regular {
+      font-size: 16px;
+    }
+  }
+
+  /* Body Medium Medium */
+  .body-medium-medium {
+    font-family: "KarlaMedium", sans-serif;
+    line-height: auto;
+  }
+  @media (min-width: 1024px) {
+    .body-medium-medium {
+      font-size: 24px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .body-medium-medium {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 767px) {
+    .body-medium-medium {
+      font-size: 16px;
+    }
+  }
 }
