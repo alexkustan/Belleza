@@ -1,3 +1,4 @@
+import { ClientStories } from "@/components/client-stories";
 import { Hero } from "@/components/Hero";
 import { LuxeTreats } from "@/components/luxe-treats";
 import { MindfulnessMarqueeAnimation } from "@/components/mindfulness-marquee-animation";
@@ -10,8 +11,9 @@ export default function Home() {
       <Hero />
       <OurStory />
       <LuxeTreats />
-      {/* <MindfulnessMarqueeAnimation /> */}
+      <MindfulnessMarqueeAnimation />
       <Sisterhood />
+      <ClientStories />
     </main>
   );
 }
