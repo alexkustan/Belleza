@@ -1,4 +1,5 @@
 import { Hero } from "@/components/Hero";
+import { LuxeTreats } from "@/components/luxe-treats";
 import { OurStory } from "@/components/our-story";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <Hero />
       <OurStory />
+      <LuxeTreats />
     </main>
   );
 }
