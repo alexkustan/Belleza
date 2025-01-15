@@ -128,21 +128,23 @@ body {
   /* Body Medium Regular */
   .body-medium-regular {
     font-family: "KarlaRegular", sans-serif;
-    line-height: auto;
   }
   @media (min-width: 1024px) {
     .body-medium-regular {
       font-size: 24px;
+      line-height: 27.6px;
     }
   }
   @media (min-width: 768px) and (max-width: 1023px) {
     .body-medium-regular {
       font-size: 20px;
+      line-height: 23px;
     }
   }
   @media (max-width: 767px) {
     .body-medium-regular {
       font-size: 16px;
+      line-height: 18.4px;
     }
   }
 
