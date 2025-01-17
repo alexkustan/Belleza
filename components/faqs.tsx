@@ -49,7 +49,7 @@ export const Faqs: React.FC = () => {
               </div>
 
               {/* Text Content */}
-              <div className="flex flex-1 border-t-2 border-b-2 border-r-2 md:border-r-0 border-black p-5 gap-6">
+              <div className="flex flex-1 border-t-2 border-b-2 border-r-2 md:border-r-0 border-black p-5 md:p-[30px]  gap-6">
                 {/* Question */}
                 <div className="flex-1">
                   <p className="body-medium-medium text-[#990f39]  leading-[18px]">
