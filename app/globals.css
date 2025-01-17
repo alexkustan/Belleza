@@ -153,7 +153,7 @@ body {
   .body-medium-medium {
     font-family: "KarlaMedium", sans-serif;
     line-height: auto;
-    font-weight: 500;
+    text-transform: uppercase;
   }
   @media (min-width: 1024px) {
     .body-medium-medium {
