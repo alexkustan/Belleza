@@ -1,5 +1,6 @@
 import { ClientStories } from "@/components/client-stories";
 import { Faqs } from "@/components/faqs";
+import { Footer } from "@/components/footer";
 import { Hero } from "@/components/Hero";
 import { LuxeTreats } from "@/components/luxe-treats";
 import { Message } from "@/components/message";
@@ -18,6 +19,7 @@ export default function Home() {
       <ClientStories />
       <Faqs />
       <Message />
+      <Footer />
     </main>
   );
 }

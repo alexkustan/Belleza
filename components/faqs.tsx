@@ -49,16 +49,16 @@ export const Faqs: React.FC = () => {
               </div>
 
               {/* Text Content */}
-              <div className="flex flex-1 border-t-2 border-b-2 border-r-2 md:border-r-0 border-black p-5 md:p-[30px]  gap-6">
+              <div className="flex flex-1 border-t-2 border-b-2 border-r-2 md:border-r-0 border-black p-5 gap-6">
                 {/* Question */}
                 <div className="flex-1">
-                  <p className="body-medium-medium text-[#990f39]  leading-[18px]">
+                  <p className="body-medium-medium text-[#990f39] lg:p-5 lg:max-w-40 leading-[18px] md:leading-6">
                     {item.question}
                   </p>
                 </div>
                 {/* Answer */}
                 <div className="flex-1">
-                  <p className="body-medium-regular text-[#990f39]">
+                  <p className="body-medium-regular text-[#990f39]  leading-[18px] md:leading-6">
                     {item.answear}
                   </p>
                 </div>

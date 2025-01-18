@@ -3,7 +3,7 @@ import React from "react";
 
 interface Props {
   text: string;
-  className?: string; // Optional prop to pass additional class names
+  className?: string;
 }
 
 export const MainButton: React.FC<Props> = ({ text, className }) => {

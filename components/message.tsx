@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Message: React.FC = () => {
   return (
-    <section className="pt-1 md:pt-[150px] lg:pt-[418px] pb-20 md:pb-[104px] lg:pb-36 ">
+    <section className="pt-1 md:pt-[150px] lg:pt-[250px] pb-20 md:pb-[104px] lg:pb-36 ">
       <div className="px-5 md:px-[30px] lg:px-[40px] mt-16 flex flex-col text-center items-center gap-5 md:gap-[30px] lg:gap-[40px]">
         <div>
           <Image
