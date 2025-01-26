@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import luxe1 from "@/public/images/luxe-treats-1.webp";
 import luxe2 from "@/public/images/luxe-treats-2.webp";
@@ -15,11 +14,10 @@ export const LuxeTreats: React.FC = () => {
         <div className="lg:row-start-1 lg:col-start-3">
           <p className="body-medium-medium">Natural Beauty Facials </p>
           <div className="border-2 border-black my-2 h-[410px] relative">
-            <Image
-              src={luxe1}
+            <img
+              src={luxe1.src}
               alt="luxe-treats-1"
-              layout="fill"
-              objectFit="cover"
+              className="w-full h-full object-cover"
             />
           </div>
           <p className="body-medium-regular">
@@ -31,11 +29,10 @@ export const LuxeTreats: React.FC = () => {
         <div className="lg:row-start-2 lg:col-start-2 lg:-mt-3">
           <p className="body-medium-medium">Holistic Skincare Therapies</p>
           <div className="border-2 border-black my-2 h-[410px] relative">
-            <Image
-              src={luxe2}
+            <img
+              src={luxe2.src}
               alt="luxe-treats-2"
-              layout="fill"
-              objectFit="cover"
+              className="w-full h-full object-cover"
             />
           </div>
           <p className="body-medium-regular">
@@ -48,11 +45,10 @@ export const LuxeTreats: React.FC = () => {
         <div className="lg:row-start-2 lg:col-start-4 md:mt-3 lg:-mt-12">
           <p className="body-medium-medium">Wellness Workshops</p>
           <div className="border-2 border-black my-2 h-[410px] relative">
-            <Image
-              src={luxe3}
+            <img
+              src={luxe3.src}
               alt="luxe-treats-3"
-              layout="fill"
-              objectFit="cover"
+              className="w-full h-full object-cover"
             />
           </div>
           <p className="body-medium-regular">

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import Logo from "@/public/images/belleza-logo.svg";
 import HeroImage from "@/public/images/hero.webp";
@@ -8,13 +7,10 @@ export const Hero: React.FC = () => {
   return (
     <section className="relative h-screen overflow-hidden">
       <div className="absolute inset-0 -z-10">
-        <Image
-          src={HeroImage}
+        <img
+          src={HeroImage.src}
           alt="hero image"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          className="h-screen w-full"
+          className="h-screen w-full object-cover object-center"
         />
         <div
           className="absolute inset-0"
@@ -26,8 +22,8 @@ export const Hero: React.FC = () => {
       </div>
       <div className="flex flex-col text-center justify-between h-full p-5 md:p-[30px] lg:p-[40px]">
         <div className="flex items-center justify-center">
-          <Image
-            src={Logo}
+          <img
+            src={Logo.src}
             alt="Bellaza Logo"
             className="h-10 md:h-12 lg:h-14"
           />

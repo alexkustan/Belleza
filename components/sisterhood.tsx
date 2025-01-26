@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import sisterHoodImg from "@/public/images/sisterhood.webp";
 
@@ -12,13 +11,10 @@ export const Sisterhood: React.FC = () => {
           Sisterhood
         </h2>
         <div className="relative w-full h-[600px] self-center lg:col-span-2 lg:col-start-2 lg:row-start-1 overflow-hidden">
-          <Image
-            src={sisterHoodImg}
+          <img
+            src={sisterHoodImg.src}
             alt="sister hood image"
-            layout="fill"
-            objectFit="cover"
-            objectPosition="center"
-            className="border-2 border-black"
+            className="w-full h-full object-cover border-2 border-black"
           />
         </div>
         <p className="body-medium-regular lg:self-end lg:col-start-1 lg:row-start-1 lg:text-right">

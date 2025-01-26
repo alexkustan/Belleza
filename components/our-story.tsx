@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import ourStoryImg from "@/public/images/our-story.webp";
 
@@ -10,13 +9,10 @@ export const OurStory: React.FC = () => {
           Our <br /> Story
         </h2>
         <div className="relative w-full h-[600px] self-center lg:col-span-2 overflow-hidden">
-          <Image
-            src={ourStoryImg}
+          <img
+            src={ourStoryImg.src}
             alt="our story image"
-            layout="fill"
-            objectFit="cover"
-            objectPosition="center"
-            className="border-2 border-black"
+            className="w-full h-full object-cover border-2 border-black"
           />
         </div>
         <p className="body-medium-regular text-right lg:self-end lg:text-left">

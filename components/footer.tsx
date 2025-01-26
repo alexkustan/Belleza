@@ -2,7 +2,6 @@
 
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import Image from "next/image";
 import Logo from "@/public/images/belleza-logo.svg";
 import smallStar from "@/public/images/small-star.svg";
 
@@ -67,13 +66,13 @@ export const Footer: React.FC = () => {
               {/* Multiple pairs of images */}
               {Array.from({ length: 10 }).map((_, index) => (
                 <div key={index} className="flex items-center gap-2">
-                  <Image
-                    src={smallStar}
+                  <img
+                    src={smallStar.src}
                     alt="Star"
                     className="w-5 h-5 md:w-[30px] md:h-[30px] lg:w-[40px] lg:h-[40px]"
                   />
-                  <Image
-                    src={Logo}
+                  <img
+                    src={Logo.src}
                     alt="Belleza logo"
                     className="w-[146px] h-[40px] md:w-[175px] md:h-[48px] lg:w-[205px] lg:h-[56px]"
                   />

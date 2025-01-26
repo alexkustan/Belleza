@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import star from "@/public/images/star.svg";
 import { MainButton } from "./main-button";
@@ -36,11 +35,11 @@ export const ClientStories: React.FC = () => {
         {story.map((item, index) => (
           <div key={index} className="border-2 border-black">
             <div className="flex justify-end gap-3 p-5">
-              <Image src={star} alt="star" className="size-6" />
-              <Image src={star} alt="star" className="size-6" />
-              <Image src={star} alt="star" className="size-6" />
-              <Image src={star} alt="star" className="size-6" />
-              <Image src={star} alt="star" className="size-6" />
+              <img src={star.src} alt="star" className="size-6" />
+              <img src={star.src} alt="star" className="size-6" />
+              <img src={star.src} alt="star" className="size-6" />
+              <img src={star.src} alt="star" className="size-6" />
+              <img src={star.src} alt="star" className="size-6" />
             </div>
             <p className="body-medium-regular border-y-2 bg-secondary text-[#e6e6e6] border-black py-10 px-5">
               {item.story}
